@@ -4,4 +4,4 @@ runningapps.eu website
 single page application - based on the Jekyll template Hydra. 
 
 
-[![Open in Visual Studio Code](https://img.shields.io/badge/Open%20in-Visal%20Studio%20Code-blue?style=for-the-badge&logo=visualstudiocode)](https://open.vscode.dev/basvandesande/runningapps.git)
+[![Open in Visual Studio Code](https://img.shields.io/badge/Open%20in-Visal%20Studio%20Code-blue?style=for-the-badge&logo=visualstudiocode)](https://vscode.dev/basvandesande/runningapps)

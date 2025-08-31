@@ -1,2 +1,4 @@
 # runningapps
-runningapps.eu website
+runningapps.eu website 
+
+single page application - based on the Jekyll template Hydra. 

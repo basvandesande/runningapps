@@ -1,0 +1,16 @@
+{
+  "name": "Jekyll Dev Container",
+  "image": "mcr.microsoft.com/devcontainers/jekyll",
+  "features": {},
+  "postCreateCommand": "bundle install || true",
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": [
+        "rebornix.Ruby",
+        "bung87.rails",
+        "yzhang.markdown-all-in-one"
+      ]
+    }
+  }
+}

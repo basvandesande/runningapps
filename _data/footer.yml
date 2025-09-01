@@ -1,8 +1,10 @@
 - links:
+  - name: Get Started
+    link: /get/
   - name: Contribute
     link: /contribute/
-  - name: Blog
-    link: /blog/
+  - name: Issues
+    link: /issues/
   - name: About
     link: /about/
 - links:

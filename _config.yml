@@ -26,17 +26,19 @@ social:
 timezone: Europe/Amsterdam
 
 collections:
+  issues:
+    output: true
   staff_members:
     _hide_content: true
 
 paginate: 10
-paginate_path: "/blog/:num/"
+paginate_path: "/issues/:num/"
 permalink: pretty
 
 defaults:
   - scope:
       path: ""
-      type: "posts"
+      type: "issues"
     values:
       layout: "post"
       _options:

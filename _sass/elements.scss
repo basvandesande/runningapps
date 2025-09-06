@@ -41,14 +41,20 @@ h2 {
 }
 
 h3 {
+	font-size: 1.38em;
+	color: #666;
 	margin: 20px 0 10px 0;
 }
 
 
-p, address {
+p, address, ul {
 	font-size: 1.38em;
 	color: #666;
 	margin-bottom: 20px;
 	font-weight: 300;
 	line-height: 1.4em;
+}
+
+.accent {
+	background: rgba(252, 151, 0, 0.2); // #FC9700 at 20% opacity
 }

@@ -1,13 +1,13 @@
+- name: Home
+  link: /
+  new_window: false
+  highlight: false
 - name: Get started
   link: /getstarted/
   new_window: false
   highlight: false
 - name: Contribute
-  link: /Contribute/
-  new_window: false
-  highlight: false
-- name: Issues
-  link: /issues/
+  link: /contribute/
   new_window: false
   highlight: false
 - name: About

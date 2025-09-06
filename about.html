@@ -1,16 +1,28 @@
 ---
-title: Our team
-description: >-
-  We've built an amazing, fantastic team of developers, marketers, designers and
-  sales people.
----
+title: WHAT!? YOU GOTTA BE KIDDING! 
+description: NO WAY, I HAVE TO PAY TO USE MY OWN DATA? THIS COMPANION APP IS USELESS! 
 
+
+---
+<p>
+When I saw the grayed-out feature in the companion app of my treadmill, I was fuming. After uploading my personal run data to the companion app, it turned out that I had to pay to use my own data. 
+The expensive high-end treadmill that I bought was basically worthless for my training goal: training for running in the mountains. I am still looking in disbelief at the screen in the app.
+</p>
+<p>
+The frustration I felt, fueled a brief spark of creativity. In my head formed this bold idea: "Why not building my own app? 
+The running app of my dreams. An app for runners, built by a runner!" An undertaking that escalated pretty quickly, 
+and soon my ideas for the app went beyond my dreams, far beyond my dreams...
+</p>
+<p>
+As a seasoned coding software architect, I have the skills to build this kind of applications. The app may not be perfect, but over the past months it has served me perfectly. Along the way of 
+building it, I learned a couple of new tricks. It was a fun journey of creativity. I hope you will enjoy this app as much as I do.
+</p>
 <p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_staff_members/" class="btn"><strong>&#9998;</strong> Manage Staff members</a></p>
 <ul class="staff">
 	{% for person in site.staff_members %}
 		<li>
-			<div class="square-image"><img src="{% include relative-src.html src=person.image_path %}" alt="{{ person.name }}"/></div>
-			<div class="name"><a target="_blank" href="https://twitter.com/{{ person.twitter }}">{{ person.name }}</a></div>
+			<div class="square-image"><img src="{{ site.baseurl }}/images/{{ person.image_path }}" alt="{{ person.name }}"/></div>
+			<div class="name"><a target="_blank" href="https://linkedin.com/in/{{ person.linkedin }}">Bas van de Sande</a></div>
 			<div class="position">{{ person.position }}</div>
 		</li>
 	{% endfor %}

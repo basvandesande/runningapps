@@ -35,4 +35,12 @@
 	.position {
 		color: #666;
 	}
+	.email {
+		color: #666;
+
+		a {
+			color: inherit;
+			text-decoration: underline; 
+		}
+	}
 }

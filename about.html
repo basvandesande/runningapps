@@ -22,8 +22,9 @@ building it, I learned a couple of new tricks. It was a fun journey of creativit
 	{% for person in site.staff_members %}
 		<li>
 			<div class="square-image"><img src="{{ site.baseurl }}/images/{{ person.image_path }}" alt="{{ person.name }}"/></div>
-			<div class="name"><a target="_blank" href="https://linkedin.com/in/{{ person.linkedin }}">Bas van de Sande</a></div>
+			<div class="name"><a target="_blank" href="https://linkedin.com/in/{{ person.linkedin }}">{{ person.name }}</a></div>
 			<div class="position">{{ person.position }}</div>
+			<div class="email"><a href="mailto:{{ person.email }}?subject=Re-Run App"> {{ person.email }}</a></div>
 		</li>
 	{% endfor %}
 </ul>

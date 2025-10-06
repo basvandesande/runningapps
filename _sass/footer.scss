@@ -8,6 +8,14 @@
 		flex: 1 0 180px;
 	}
 
+	// Make first column wider for legal links
+	&:first-child {
+		@media #{$tablet} {
+			-webkit-flex: 1 0 220px;
+			flex: 1 0 220px;
+		}
+	}
+
 	li {
 		list-style: none;
 		margin: 15px auto;

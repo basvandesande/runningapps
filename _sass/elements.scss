@@ -55,6 +55,19 @@ p, address, ul {
 	line-height: 1.4em;
 }
 
+// Smaller text for legal and privacy pages
+.legal-page ul, .privacy-page ul {
+	font-size: 1.1em;
+	
+	li {
+		margin-bottom: 8px;
+	}
+}
+
+.legal-page p, .privacy-page p {
+	font-size: 1.1em;
+}
+
 .accent {
 	background: rgba(252, 151, 0, 0.2); // #FC9700 at 20% opacity
 }
